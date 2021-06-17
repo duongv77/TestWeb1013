@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+.header{
+    text-align: center;
+    padding: 20px 0;
+}
+.nav-left ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.nav-left ul li a{
+    color: white;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+.nav-left ul li a:hover{
+    color: white;
+    background: rgb(170, 170, 170);
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #819e06;
+    padding-right: 10px;
+    padding-left: 40px;
+}
+.nav input{
+    border:1px solid #cccccc ;
+    padding: 3px 15px;
+    width: 240px;
+    margin-right: 10px;
+}
+.nav button{
+    border:1px solid #cccccc ;
+    background: black;
+    color: white;
+    padding: 4px 19px;
+}
+.conten{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 10px;
+    margin: 5px 0;
+}
+.conten-left{
+    background: #819e06;
+    padding: 0 20px;
+    height: 1056px;
+}
+.conten-left h4{
+    color: white;
+}
+.conten-left div a{
+    display: flex;
+    flex-grow: 2;
+    align-items: baseline;
+    color: white;
+}
+.conten-left div a img{
+    margin-right: 20px;
+}
+.conten-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.img-post{
+    padding: 5px;
+}
+.img-post img{
+    width: 100%;
+}
+.post h3 a{
+    color: #819e06;
+}
+hr{
+    height: 1px;
+    background: #819e06;
+}
+footer{
+    margin-top: 10px;
+    background: #819e06;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
